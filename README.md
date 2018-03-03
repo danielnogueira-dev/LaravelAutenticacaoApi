@@ -121,3 +121,7 @@ Laravel versão 5.5.22
 	
 	rodar npm install, para compilar assets (laravel mix).
 	comando necessário para rodar "npm run dev" para recompilar assets para as telas de client do passaporte.
+	
+	-----------------------------------------
+	
+	para utilizar as views do oauth, é preciso rodar: php artisan make:auth , se cadastrar e fazer login no sitema. Isso evita o erro 401.
