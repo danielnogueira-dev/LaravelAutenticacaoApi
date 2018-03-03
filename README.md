@@ -102,8 +102,20 @@ Laravel versão 5.5.22
 
 	show databases;
 
-	CREATE DATABASE teste;
+	CREATE DATABASE autenticacao;
 	
-	use teste;
+	use autenticacao;
 	
 	show tables;
+
+10. *** Novas informações - falta organizar ***
+
+	Para a versão do laravel que está sendo utilizada, a versão 5.0 do passport não está sendo instalada.
+	Informar versão no comando de execução : composer require laravel/passport "4.0"
+	
+	documentação seguida: https://laravel.com/docs/5.5/passport
+	
+	Instalar nodejs:
+	curl -sL https://deb.nodesource.com/setup_9.x | bash -
+	apt-get install -y nodejs
+	
