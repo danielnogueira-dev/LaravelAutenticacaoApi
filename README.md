@@ -58,7 +58,7 @@ Laravel versão 5.5.22
 
 1. Clone o repositório usando o comando:
 
-   git clone https://github.com/danielnogueira-dev/LaravelAutenticacaoApi
+   git clone https://github.com/danielnogueira-dev/LaravelAutenticacaoApi.git
 
 2. Entre na pasta Docker-Compose-Nginx-Php-Laravel-Mysql e copie o arquivo env-example para .env.
 
