@@ -119,3 +119,7 @@ Laravel versão 5.5.22
 	curl -sL https://deb.nodesource.com/setup_9.x | bash -
 	apt-get install -y nodejs
 	
+	rodar npm install, para compilar assets (laravel mix).
+	comando necessário para rodar "npm run dev" para recompilar assets para as telas de client do passaporte.
+	
+	Instalação do Vue.js para utilizar os componentes que o vue oferece para manipular os clients do oauth via navegador.
