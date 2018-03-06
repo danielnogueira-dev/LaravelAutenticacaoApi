@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +19,10 @@ Route::get('/', function () {
 
 Route::get('/vue', function () {
     return view('vue');
+});
+
+Route::get('/callback', function (Request $request) {
+    var_dump($request->code);
 });
 
 Auth::routes();

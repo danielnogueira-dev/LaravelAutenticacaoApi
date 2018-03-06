@@ -124,4 +124,13 @@ Laravel versão 5.5.22
 	
 	-----------------------------------------
 	
+	criar seed para usuário inicial do sistema (admin). Esse usuário irá cadastrar os clients.
+	
+	criar seed para usuário comum do sistema. Esse usuário irá dar autorização ao client para acessar os recursos da aplicação em seu nome.
+	
 	para utilizar as views do oauth, é preciso rodar: php artisan make:auth , se cadastrar e fazer login no sitema. Isso evita o erro 401.
+	
+	php artisan passport:client --password (criação específica para cliente via password).
+	
+	criar componente no vue para mostrar client de password no dashboard inicial.
+	
