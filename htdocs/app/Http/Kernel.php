@@ -3,6 +3,7 @@
 namespace Autenticacao\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Laravel\Passport\Http\Middleware\CheckClientCredentials;
 
 class Kernel extends HttpKernel
 {
@@ -57,5 +58,8 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \Autenticacao\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+		'client' => CheckClientCredentials::class,
+		'scopes' => \Laravel\Passport\Http\Middleware\CheckScopes::class,
+		'scope' => \Laravel\Passport\Http\Middleware\CheckForAnyScope::class,
     ];
 }
