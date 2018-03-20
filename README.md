@@ -98,8 +98,10 @@ A versão deve ser informada no comando de execução. Ex: composer require lara
 	Executar comando para gerar chaves necessarias para rodar o laravel: php artisan key:generate
 
 	Executar comandos para instalar nodejs:
-		- curl -sL https://deb.nodesource.com/setup_9.x | bash -
-		- apt-get install nodejs
+
+		curl -sL https://deb.nodesource.com/setup_9.x | bash -
+		
+		apt-get install nodejs
 	
 	Executar comando para compilar assets (laravel mix): npm install
 	
